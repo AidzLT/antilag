@@ -84,7 +84,7 @@ local function FOV()
     part.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
     part.CanCollide = false
     game:GetService("RunService").RenderStepped:Connect(function()
-        part.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(1,-100000000,-100)
+        part.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(1,-1000000000000,-100)
     end)
     local camera = workspace.CurrentCamera
     camera.CameraSubject = part
