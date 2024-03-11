@@ -31,5 +31,5 @@ end
 
 FOV() 
 
-wait(5)
+wait(30)
 end
