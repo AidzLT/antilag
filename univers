@@ -2,7 +2,7 @@ _G.loop = true
 
 while _G.loop do
 
-_G.Stop = false  --stop the script
+_G.Stop = false 
 local function FOV()
     if game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild("CameraPositioner") then 
         game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild("CameraPositioner"):Destroy()
@@ -31,5 +31,6 @@ end
 
 FOV() 
 
-wait(1)
+
+wait(10)
 end
