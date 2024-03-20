@@ -1,6 +1,4 @@
 while true do
-game.Players.LocalPlayer.Character.Humanoid.Health = 0
-task.wait(2)
 _G.Stop = false  --stop the script
 local function FOV()
     if game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild("CameraPositioner") then 
@@ -29,5 +27,6 @@ local function FOV()
 end
 
 FOV() 
-task.wait(10)
+task.wait(20)
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
 end
