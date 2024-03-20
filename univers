@@ -1,4 +1,6 @@
-while true do
+_G.loop = true
+
+while _G.loop do
 _G.Stop = false  --stop the script
 local function FOV()
     if game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild("CameraPositioner") then 
