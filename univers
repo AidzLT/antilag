@@ -29,6 +29,4 @@ end
 
 FOV() 
 task.wait(30)
-game.Players.LocalPlayer.Character.Humanoid.Health = 0
-task.wait(3)
 end
